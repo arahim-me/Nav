@@ -1,0 +1,47 @@
+/* Basic Css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ul li{
+    list-style-type: none;
+    margin: 0 15px;
+}
+i.fas{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Navigaion Style */
+.nav-menu{
+    background: rgb(36, 36, 36);
+}
+.nav-menu .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.nav-menu .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
